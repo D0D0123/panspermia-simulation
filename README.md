@@ -34,10 +34,28 @@ All simulation parameters are configurable in `config.py`:
 
 ## Installation
 
-No external dependencies required! Just Python 3.7+.
+### Prerequisites
+- Python 3.7 or higher
+- Git
 
+### Setup
+
+1. Clone the repository:
 ```bash
+git clone <repository-url>
 cd panspermia-simulation
+```
+
+2. Create and activate a virtual environment (recommended):
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+3. No external dependencies required! The simulation uses only Python standard library.
+
+4. Run the simulation:
+```bash
 python main.py
 ```
 
